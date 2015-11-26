@@ -69,10 +69,7 @@ Select an existing Space or create a new one in the Bluemix Dashboard and click 
 9.  Ensure under **Make this a Bluemix Project**, that the space selected is the space you deployed your bridge application to above.  
 10.  Click **CREATE** and wait for your Bluemix DevOps Services project to be created.  Now whenever any changes are made in your forked GitHub repository, they will flow into this project and kick off the Delivery Pipeline you will configure in the next step.
 
-### Configure the Delivery Pipeline
-Only one of the Delivery Pipeline walkthroughs below is necessary.  You do not need to do both of them.
-
-#### Configure a Basic Delivery Pipeline
+### Configure a Basic Delivery Pipeline
 > Use this Basic Pipeline to deploy a single Let's Chat container with a public IP, accessed via http://{public_ip}:8080  
 
 21.  Once created, go to the **BUILD & DEPLOY** tab of your project.  
