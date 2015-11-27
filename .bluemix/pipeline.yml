@@ -16,7 +16,7 @@ stages:
       space: ${CF_SPACE}
     IMAGE_NAME: lets-chat-bmx
     USE_CACHED_LAYERS: 'true'
-    COMMAND: "#!/bin/bash\nlog_and_echo \"$LABEL\" \"Starting build script\"\n\ncd\
+    COMMAND: "#!/bin/bash\nlog_and_echo \"$LABEL\" \"Starting build script\"\n\n\
       \ \n######################################\n\
       # Build Container via Dockerfile     #\n######################################\n\
       \nif [ -f Dockerfile ]; then \n    log_and_echo \"$LABEL\" \"Building ${FULL_REPOSITORY_NAME}\"\
