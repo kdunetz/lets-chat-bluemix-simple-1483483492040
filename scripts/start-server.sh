@@ -32,7 +32,7 @@ export LCB_DATABASE_NAME=${LCB_DATABASE_NAME:-lets-chat-mongo}
 export LCB_DATABASE_URI="mongodb://${TEMP_USER}:${TEMP_PASS}@${TEMP_URI}:${TEMP_PORT}/${LCB_DATABASE_NAME}"
 
 # Inserting sleep delay per recommendation via https://www.ng.bluemix.net/docs/containers/container_single_ov.html#container_single_cli
-sleep 60
+sleep 30
 
 #Run server
 npm start
